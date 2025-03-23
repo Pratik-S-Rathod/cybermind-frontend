@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+.rounded-md {
+  border-radius: 5px;
+}
+
+.rounded-lg {
+  border-radius: 7px;
+}
+
+.rounded-sm {
+  border-radius: 3px;
+}
+select option:hover {
+  @apply bg-neutral-200;
+}
